@@ -8,7 +8,10 @@ guidelines](CONTRIBUTING.md).**
 
 ## Development
 
-To run the visualization locally you just need a server to serve all the files from the `dist` directory. You can run `npm install` then `npm run serve` if you don't have one handy. To see the visualization, visit `http://localhost:8080/` on your browser.
+If you don't have it already, install npm following https://www.npmjs.com/get-npm
+Make sure that you have the latest version.
+
+To run the visualization locally you just need a server to serve all the files from the `dist` directory. You can run `npm install` then `npm run build` and then `npm run serve` if you don't have one handy. To see the visualization, visit `http://localhost:8080/` on your browser.
 
 When developing, use `npm run serve-watch`. This will start a static server and also watchers to automatically compile the TypeScript, HTML and CSS files
 whenever they change.
